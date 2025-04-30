@@ -14,13 +14,13 @@ Este projeto utiliza React e TailwindCSS. Certifique-se de ter o Node.js instala
 
 - Validar em tempo real os seguintes critérios:
 
-- Pelo menos 8 caracteres.
-
-- Pelo menos uma letra maiúscula.
-
-- Pelo menos um caractere especial (como ! @ # %).
-
-- Senhas devem ser iguais.
+    - Pelo menos 8 caracteres.
+    
+    - Pelo menos uma letra maiúscula.
+    
+    - Pelo menos um caractere especial (como ! @ # %).
+    
+    - Senhas devem ser iguais.
 
 - Exibir feedback visual (cores/verificações) para cada critério atendido.
 
