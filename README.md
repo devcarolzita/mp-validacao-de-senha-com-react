@@ -1,29 +1,41 @@
-# Nome do Mini Projeto
+# Validação de senha com React
 
-(um parágrafo explicando)
+Neste mini-projeto, você irá desenvolver uma interface de redefinição de senha que valida critérios de segurança em tempo real. O usuário precisa criar uma nova senha que atenda a requisitos como presença de letra maiúscula, caractere especial e mínimo de caracteres. O design traz um modal escuro contrastando com um fundo de paisagem montanhosa.
+
 
 ## 🤓 Antes de começar
 
-(Coloque aqui algum setup / boilerplate e explicações se houver. Se não houver, essa seção pode ser apagada)
+Este projeto utiliza React e TailwindCSS. Certifique-se de ter o Node.js instalado e rode npm install antes de iniciar.
+
 
 ## 🔨 Requisitos
 
-- Requisito 1
-- Requisito 2
+- Criar campos de senha e confirmação de senha.
 
-	> 👀 **Dicas:**
-	> - Dica A sobre Req 2.
-	> - Dica B sobre Req 2.
+- Validar em tempo real os seguintes critérios:
 
-- Requisito 3
-- ...
+- Pelo menos 8 caracteres.
+
+- Pelo menos uma letra maiúscula.
+
+- Pelo menos um caractere especial (como ! @ # %).
+
+- Senhas devem ser iguais.
+
+- Exibir feedback visual (cores/verificações) para cada critério atendido.
+
+> 👀 **Dicas:**
+> - Use useState para armazenar a senha e useEffect para validar.
+> - Considere usar regex para validar os critérios da senha.
+> - Exibir feedback visual (cores/verificações) para cada critério atendido.
 
 ## 🔨 Desafio extra para quem quer ir além
 
-(Essa seção é opcional)
+- Adicionar opção de exibir/ocultar senha com ícones.
 
-- Requisito extra 1. 
-- Requisito extra 2.
+- Aplicar animações sutis usando TailwindCSS.
+
+- Tornar o layout responsivo.
 
 ## 🎨 Design Sugerido
 
@@ -37,15 +49,18 @@ Temos uma sugestão de design no Figma. Entretanto, fique à vontade para montar
 
 ### O que você irá praticar:
 
+
 #### React
 
-- Habilidade 1 do React
-- Habilidade 2
+- Uso de useState e useEffect
+
+- Manipulação de formulários e validação em tempo real
 
 #### TailwindCSS
 
-- Habilidade 1 do TailwindCSS
+- Estilização moderna e responsiva
+- Uso de classes utilitárias para feedback visual
 
 ### Pré requisitos
 
-(coloque aqui se houver algum)
+Conhecimento básico de React e JavaScript ES6+
